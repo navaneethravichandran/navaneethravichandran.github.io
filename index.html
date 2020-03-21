@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<style>
+h1  {font-family: Helvetica; font-size: 30px; line-height:100%}
+h1 span { 
+  margin-top: -110px;        /* Size of fixed header */
+  padding-bottom: 70px; 
+  display: block; 
+}
+
+h2  {font-family: Helvetica; font-size: 23px; line-height:100%}
+h2 span { 
+  margin-top: -60px;        /* Size of fixed header */
+  padding-bottom: 60px; 
+  display: block; 
+}
+
+p  {font-family: Helvetica; font-size: 18px; line-height: 140%; text-align: justify}
+
+center {font-family: Helvetica; font-size: 18px; line-height: 140%}
+
+.clearFiX {overflow:auto; }
+
+.boxedList {font-family: Helvetica; font-size: 18px; line-height: 120%; border:3px; border-style:solid; border-color:black;, left:0px;}
+
+ol li {
+  counter-increment: list;
+  list-style-type: none;
+  position: relative;
+}
+ol li:before {
+  content: counter(list) ".";
+  left:-32px;
+  position: absolute;
+  text-align: right;
+  width: 26px;
+  font-family: Helvetica; font-size: 18px; line-height: 140%
+}
+
+ul li {
+  counter-increment: list;
+  list-style-type: none;
+  position: relative;
+  left:10px;
+  text-align: left;
+  font-family: Helvetica; 
+  font-size: 18px; 
+  line-height: 130%;
+  margin-right: 10px;
+}
+ul li:before {
+  content: "\2022";
+  left:-32px;
+  position: absolute;
+  text-align: right;
+  width: 26px;
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 140%
+}
+
+.navbar {
+  overflow: hidden;
+  background: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 140%;
+  padding: 1.5% 1% 1.5% 1%;
+  text-align:left;
+  z-index: 9;
+}
+
+</style>
+<title>Navaneetha Krishnan Ravichandran</title>
+</head>
+<body style='margin-top:0%;margin-left:15%;margin-right:15%;margin-bottom:10%;'>
+
+<div class="navbar">
+  <a href="#Home">Home</a>
+  <a href="#Research">Research</a>
+  <a href="#Publications">Publications</a>
+  <a href="#Patents">Patents</a>
+  <a href="#Talks">Talks</a>
+  <a href="#Awards">Awards</a>
+</div>
+
+
+<div class="clearFiX">
+<span id="Home"> &nbsp; </span>
+<br /><br />
+<br /><br />
+<img src="Navaneeth_Picture_1.jpg" style="float:left;margin-right:15px;width:159px;height:240px">
+<!--<h2> <span id="Home"> &nbsp; </span> </h2>-->
+
+<p> <font size="5"> <b> Navaneetha K. Ravichandran </b> </font> <br /></p>
+
+<p> Assistant Professor, <br />
+    Department of Mechanical Engineering, <br />
+    Indian Institute of Science (IISc), <br />
+    Bangalore - 560012, India <br />
+    Email: navaneeth@iisc.ac.in <br />
+    <a href="https://scholar.google.com/citations?hl=en&user=wZzGt1EAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer">Google Scholar</a> </p>
+<hr />
+</div>
+
+<h2> <span id="About_Me"> &nbsp; </span> About me </h2>
+<p> I received my Ph.D. in Mechanical Engineering (2016) and M.S. in Space Engineering (2012) from <a href="http://www.caltech.edu/" target="_blank" rel="noopener noreferrer">Caltech</a>, and a dual degree (B.Tech. & M.Tech) in Mechanical Engineering from <a href="https://www.iitm.ac.in/" target="_blank" rel="noopener noreferrer">IIT Madras</a> (2011). My Ph.D. advisor was <a href="http://www.minnich.caltech.edu/" target="_blank" rel="noopener noreferrer">Prof. Austin Minnich</a>. Subsequently, I was a post-doctoral research fellow at the <a href="https://www.bc.edu/bc-web/schools/mcas/departments/physics.html" target="_blank" rel="noopener noreferrer">Department of Physics, Boston College</a> from 2016-2019, working with <a href="https://scholar.google.com/citations?user=5oNkjdkAAAAJ&hl=en">Prof. David Broido</a>. </p>
+<div class="boxedList">
+<p style="margin-top: 3px; margin-left: 3px;"> <b> <font size="5"> News </font> </b> </p>
+<ul>
+<li> <u> <i> Jan. 9, 2020 </i> </u>: Giant isotope effect on the thermal conductivity of cubic BN published in <a href="https://science.sciencemag.org/content/early/2020/01/08/science.aaz6149" target="_blank" rel="noopener noreferrer">Science</a> </li>
+<li> <u> <i> Feb. 19, 2019 </i> </u>: Unusual non-monotonic pressure dependence of BAs thermal conductivity published in <a href="https://www.nature.com/articles/s41467-019-08713-0" target="_blank" rel="noopener noreferrer">Nature Comm.</a> </li>
+<li> <u> <i> Oct. 5, 2018 </i> </u>: Experimental work on the surface reflections of thermal phonons published in <a href="https://link.aps.org/doi/10.1103/PhysRevX.8.041004" target="_blank" rel="noopener noreferrer">Phys. Rev. X</a> </li>
+<li> <u> <i> Aug. 10, 2018 </i> </u>: Collaborative work on the ultra-high thermal conductivity of BAs published in <a href="http://science.sciencemag.org/content/361/6402/582" target="_blank" rel="noopener noreferrer">Science</a> </li>
+</ul> 
+</div>
+
+<h2> <span id="Research"> &nbsp; </span> Research </h2>
+<p> I am broadly interested in studying the electronic and thermal properties of semiconductors and metals. Specifically, I develop computational and experimental tools to probe the <i>microscopic, quantum-mechanical interactions among energy carriers</i> that drive these macroscopic properties. For my <a href="https://thesis.library.caltech.edu/10014/" target="_blank" rel="noopener noreferrer">Ph.D. thesis</a>, I set up an optical transient grating experiment and extracted the probabilities of mirror-like (specular) and diffuse surface reflections of heat carriers (phonons), which cause the dominant resistance to heat flow through nanoscale devices. In my post-doctoral work, I have developed a new unified first-principles computational framework to capture the higher-order coupling among phonons at high temperatures and extreme environments, and its effect on thermal conductivity, structural phase transitions and carrier transport in materials.</p>
+<img src="ResearchSchematic.png" style="display:block;margin: 0 auto;width:80%;height:40%">
+
+<h2> <span id="Publications"> &nbsp; </span>  Publications </h2>
+<p> * :<u>Equal contribution</u> </p>
+<ol>
+<li> <p> <a href="https://science.sciencemag.org/content/early/2020/01/08/science.aaz6149" target="_blank" rel="noopener noreferrer">Ultrahigh Thermal Conductivity in Isotope-enriched Cubic Boron Nitride</a> <br />
+Ke Chen*, Bai Song*, <b><u>Navaneetha K. Ravichandran</u></b>*, Qiye Zheng, Xi Chen, Hwijong Lee, Haoran Sun, Sheng Li, Geethal Amila Gamage, Fei Tian, Zhiwei Ding, Qichen Song, Akash Rai, Hanlin Wu, Pawan Koirala, Aaron J. Schmidt, Kenji Watanabe, Bing Lv, Zhifeng Ren, Li Shi, David G. Cahill, Takashi Taniguchi, David Broido & Gang Chen, <i>Science 367 (6477), 555-559, 2020</i> </p> </li>
+<li> <p> <a href="https://www.nature.com/articles/s41467-019-08713-0" target="_blank" rel="noopener noreferrer">Non-monotonic Pressure Dependence of the Thermal Conductivity of Boron Arsenide</a> <br />
+Navaneetha K. Ravichandran & David Broido, <i>Nature Communications 10 (827), 2019</i> </p> </li>
+<li> <p> <a href="https://link.aps.org/doi/10.1103/PhysRevX.8.041004" target="_blank" rel="noopener noreferrer">Spectrally Resolved Specular Reflections of Thermal Phonons from Atomically Rough Surfaces</a> <br />
+Navaneetha K. Ravichandran, Hang Zhang & Austin Minnich, <i>Physical Review X 8 (4), 041004, 2018</i> </p> </li>
+<li> <p> <a href="https://link.aps.org/doi/10.1103/PhysRevB.98.085205" target="_blank" rel="noopener noreferrer">Unified First-principles Theory of Thermal Properties of Insulators</a> <br />
+Navaneetha K. Ravichandran & David Broido, <i>Physical Review B 98 (8), 085205, 2018</i> </p> </li>
+<li> <p> <a href="http://science.sciencemag.org/content/361/6402/582" target="_blank" rel="noopener noreferrer">Unusual High Thermal Conductivity in Boron Arsenide Bulk Crystals</a> <br />
+Fei Tian, Bai Song, Xi Chen, <b><u>Navaneetha K. Ravichandran</u></b>, Yinchuan Lv, Ke Chen, Sean Sullivan, Jaehyun Kim, Yuanyuan Zhou, Te-Huan Liu, Miguel Goni, Zhiwei Ding, Jingying Sun, Geethal Amila Gamage Udalamatta Gamage, Haoran Sun, Hamidreza Ziyaee, Shuyuan Huyan, Liangzi Deng, Jianshi Zhou, Aaron J Schmidt, Shuo Chen, Ching-Wu Chu, Pinshane Y Huang, David Broido, Li Shi, Gang Chen & Zhifeng Ren, <i>Science 361 (6402), 582-585, 2018</i> </p> </li>
+<li> <p> <a href="https://link.aps.org/doi/10.1103/PhysRevLett.121.175901" target="_blank" rel="noopener noreferrer">Fermi Surface Nesting and Phonon Frequency Gap Drive Anomalous Thermal Transport</a> <br />
+Chunhua Li, Navaneetha K. Ravichandran, Lucas Lindsay & David Broido, <i>Physical Review Letters 121 (17), 175901, 2018</i> </p> </li>
+<li> <p> <a href="https://link.aps.org/doi/10.1103/PhysRevApplied.10.054068" target="_blank" rel="noopener noreferrer">Quasiballistic Thermal Transport from Nanoscale Heaters and the Role of the Spatial Frequency</a> <br />
+Xiangwen Chen, Chengyun Hua, Hang Zhang, Navaneetha K. Ravichandran & Austin Minnich, <i>Physical Review Applied 10 (5), 054068, 2018</i> </p> </li>
+<li> <p> <a href="https://link.aps.org/doi/10.1103/PhysRevB.95.205423" target="_blank" rel="noopener noreferrer">Experimental Metrology to Obtain Thermal Phonon Transmission Coefficients at Solid Interfaces</a> <br />
+Chengyun Hua, Xiangwen Chen, Navaneetha K. Ravichandran & Austin Minnich, <i>Physical Review B 95 (20), 205423, 2017</i> </p> </li>
+<li> <p> <a href="https://link.aps.org/doi/10.1103/PhysRevB.93.035314" target="_blank" rel="noopener noreferrer">Role of Thermalizing and Nonthermalizing Walls in Phonon Heat Conduction along Thin Films</a> <br />
+Navaneetha K. Ravichandran & Austin Minnich, <i>Physical Review B 93 (3), 035314, 2016</i> </p> </li>
+<li> <p> <a href="https://link.aps.org/doi/10.1103/PhysRevB.89.205432" target="_blank" rel="noopener noreferrer">Coherent and Incoherent Thermal Transport in Nanomeshes</a> <br />
+Navaneetha K. Ravichandran & Austin Minnich, <i>Physical Review B 89 (20), 205432, 2014</i> </p> </li>
+<li> <p> <a href="https://doi.org/10.1016/j.ces.2010.06.016" target="_blank" rel="noopener noreferrer">Performance of Numerical Schemes in the Simulation of Two-phase Free Flows and Wall Bounded Mini Channel Flows</a> <br />
+R. Navaneetha Krishnan, S. Vivek, Dhiman Chatterjee & Sarit K. Das, <i>Chemical Engineering Science 65 (18), 5117-5136, 2010</i> </p> </li>
+</ol>
+
+<h2> <span id="Patents"> &nbsp; </span> US Patent Applications </h2>
+<ol>
+  <li> <p>  Zhifeng Ren, Fei Tian, Gang Chen, Bai Song, Ke Chen, Li Shi, Xi Chen, Sean Sullivan, David Broido & <b><u>Navaneetha K. Ravichandran</u></b>, <i> Unusual High Thermal Conductivity in Boron Arsenide Bulk Crystals</i>, US 62/687,662, filing date: 06/20/2018 </p> </li>
+</ol>
+<h2> <span id="Talks"> &nbsp; </span> Talks & Invited Seminars </h2>
+<ol>
+<li> <p> Phonon Scattering from Material Boundaries and Higher Order Anharmonicity <br />
+<i> Center for Quantum Materials and Condensed Matter Physics, Stony Brook University NY (2018) </i> </p> </li>
+<li> <p> Higher Order Phonon Scattering in Semiconductors <br />
+<i> Anharmonicity and Thermal Properties of Solids, CECAM, Paris, France (2018) </i> </p> </li>
+<li> <p> Ab-initio Thermal Properties of Semiconductors with Higher Order Anharmonicities <br />
+<i> APS March meeting, Los Angeles CA (2018)</i> </p> </li>
+<li> <p> Ab-initio Thermal Properties of Semiconductors with Higher Order Anharmonicities <br />
+<i> APS March meeting, New Orleans LA (2017) </i> </p> </li>
+<li> <p> Thermal Phonon Diffraction from Atomically Rough Surfaces <br />
+<i> MRS Spring meeting, Phoenix, AZ (2017) </i> </p> </li>
+<li> <p> Probing Spectral Phonon-Boundary Interactions Using Quasiballistic Transport <br />
+<i> Thermal Transport at the Nanoscale, Telluride CO (2016) </i> </p> </li>
+<li> <p> Direct Measurement of Phonon Specularity Parameter in Silicon Membranes using Transient Grating Spectroscopy <br />
+<i> ASME Summer Heat Transfer Conference, Washington DC (2016) </i> </p> </li>
+<li> <p> The Role of Phonon Boundary Thermalization in Heat Conduction along Thin Films <br />
+<i> 15<sup>th</sup>International Conference on Phonon Scattering in Condensed Matter, Phonons, University of Nottingham, UK (2015) </i> </p> </li>
+<li> <p> Direct Measurement of Phonon Specularity Parameter in Silicon Membranes <br />
+<i> MRS Spring meeting, San Fransisco, CA (2015) </i> </p> </li>
+<li> <p> Coherent and Incoherent Thermal Transport in Nanomeshes <br />
+<i> 11<sup>th</sup> AIAA/ASME Joint Heat Transfer and Thermophysics Conference, Atlanta, GA (2014) </i> </p> </li>
+<li> <p> Coherent Thermal Transport in Nanomeshes <br />
+<i> ASME Summer Heat Transfer Conference, Minneapolis, MN (2013) </i> </p> </li>
+</ol>
+
+<h2> <span id="Awards"> &nbsp; </span> Awards & Honors </h2>
+<ol>
+  <li> <p> Dow-Resnick Graduate Fellowship (2014-2016) awarded by the Resnick Sustainability Institute for graduate studies at Caltech </p> </li>
+  <li> <p> GALCIT Fellowship (2011-2012) for graduate studies at Caltech </p> </li>
+  <li> <p> Anantharamakrishnan Merit Prize (2011) awarded by the Department of Mechanical Engineering, IIT Madras, for the best individual dual degree project </p> </li>
+  <li> <p> Institute Merit Award (2009-2010) awarded by the Department of Mechanical Engineering, IIT Madras </p> </li>
+  <li> <p> Summer Research Fellowship (2008) awarded by the Jawaharlal Nehru Center for Advanced Scientific Research (JNCASR), Bangalore, India </p> </li>
+  <li> <p> Institute Merit Award (2007-2008) awarded by the Department of Mechanical Engineering, IIT Madras </p> </li>
+</ol>
+<br /><hr />
+</body>
+</html>
+
